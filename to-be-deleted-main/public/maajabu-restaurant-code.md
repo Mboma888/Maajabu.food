@@ -586,6 +586,7 @@ const Menu = () => {
               {menuItems.length} items
             </p>
           </div>
+{% raw %}
 
           {/* Items Grid - 2 column horizontal layout like Strange Taco Bar */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -606,6 +607,8 @@ const Menu = () => {
                 No items found in this category.
               </p>
             </div>
+{% endraw %}
+
           )}
         </div>
       </section>
